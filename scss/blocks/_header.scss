@@ -1,0 +1,117 @@
+header{
+    padding: 100px;
+    
+}
+.hero{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+    &__img{
+        max-width: 635px;
+        height: 505px;
+    }
+    &__content{
+        max-width: 610px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+        h2{
+            font-size: 52px;
+            font-family: "Exo 2", sans-serif;
+            margin-bottom: 40px;
+        }
+        .content__p{
+            max-width: 525px;
+        }
+         p{
+            font-family: "PT Sans", sans-serif;
+            line-height: 34px;
+            color: #6B6B6C;
+            margin-bottom: 40px;
+        }
+    }
+}
+.hero__content a{
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    text-decoration: underline 3px solid #FFCE50;
+    color: #272725;
+}
+
+@media only screen and (max-width: 691px) {
+    .hero{
+        display: block;
+    }
+    .herocontent{
+        text-align: center;
+    }
+    .heroimg{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 346px) {
+    .hero{
+        display: block;
+    }
+    .herocontent{
+        text-align: start;
+    }
+    .heroimg{
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:1172px){
+    .herosection{
+        padding: 117px 0 97px;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 41px;
+        flex-direction: column;
+    }
+    .herocontent {
+        width: 89%;
+        text-align: center;
+    }
+    
+    .herotitle{
+        text-align: center;
+        margin-bottom: 49px;
+        font-size: 44px;
+        font-weight: 600;
+        color: #363738;
+        line-height: 55px;
+        text-transform: capitalize;
+        font-family: "Exo 2",sans-serif;
+    }
+    .contentp {
+        text-align: center;
+        margin-bottom: 44px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #363738;
+        line-height: 24px;
+        text-transform: inherit;
+        font-family: "PT Sans",sans-serif;
+    }
+    .heroimage{
+        display: none;
+        margin-bottom: 0px;
+    }
+    .heroimg{
+        width: 85%;
+        display: block;
+    }
+}
+
